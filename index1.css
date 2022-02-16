@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 7px 20px;
+}
+body {
+  border: solid 0.01cm rgb(252, 247, 247);
+  border-radius: 3px;
+
+  padding: 8px 10px;
+  border-color: rgb(189, 197, 204);
+}
+section {
+  padding-top: 10px;
+}
+header {
+  overflow: hidden;
+  margin-top: 0px;
+  display: block;
+}
+
+#header1 {
+  background-image: url("images/uni2.jpg");
+  border-radius: 10px;
+  background-position: center;
+  background-size: auto;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  padding: 10px 0px 50px 0px;
+  font-family: fantasy;
+  font-size: 40px;
+  font-style: italic;
+  box-shadow: 0 0 2.5px rgba(112, 108, 108, 0.7);
+  color: rgba(85, 6, 105, 0.938);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+#header2a {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(253, 253, 253);
+  border-style: solid;
+  padding: 0px;
+  font-style: normal;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 3px;
+  border: 0px;
+  background-color: rgba(93, 94, 95, 0.5);
+}
+
+nav a {
+  overflow: hidden;
+  display: block;
+  padding: 1px 15px 2px 15px;
+  margin: 5px;
+  white-space: pre-line;
+  margin-right: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(252, 247, 247);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(64, 27, 94);
+  float: left;
+  clear: right;
+}
+nav a:hover {
+  overflow: hidden;
+  display: block;
+  padding: 1px 15px 2px 15px;
+  margin: 5px;
+  white-space: pre-line;
+  margin-right: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.671);
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(64, 27, 94);
+
+  float: left;
+  clear: right;
+  text-shadow: 1px 0.5px rgb(4, 196, 255);
+}
+nav {
+  border: solid 0.2px rgb(179, 185, 190);
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  left: 100px;
+  padding: 0px 0px 0px 15px;
+}
+
+#header2 {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(250, 250, 250);
+  background-color: rgb(25, 61, 21);
+  padding: 1px 15px 2px 15px;
+  border: 0.067px solid rgb(107, 105, 102);
+  border-radius: 3px;
+  text-shadow: 1.25px 1.5px rgb(25, 25, 26);
+}
+.videos {
+  display: flex;
+  right: 0px;
+  width: 240px;
+  height: 140px;
+  flex-direction: row;
+  line-height: 20px;
+}
+#header3 {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(250, 250, 250);
+  background-color: rgb(25, 61, 21);
+  padding: 1px 15px 2px 15px;
+  border: 0.067px solid rgb(107, 105, 102);
+  border-radius: 3px;
+  text-shadow: 1.25px 1.5px rgb(25, 25, 26);
+}
+.youtube {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+#header4 {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(250, 250, 250);
+  background-color: rgb(25, 61, 21);
+  padding: 1px 15px 2px 15px;
+  border: 0.067px solid rgb(107, 105, 102);
+  border-radius: 3px;
+  text-shadow: 1.25px 1.5px rgb(25, 25, 26);
+}
+.notes {
+  display: flex;
+  width: 150px;
+  height: 190px;
+  flex-direction: row;
+  align-items: center;
+}
+#header5 {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(250, 250, 250);
+  background-color: rgb(25, 61, 21);
+  padding: 1px 15px 2px 15px;
+  border: 0.067px solid rgb(107, 105, 102);
+  border-radius: 3px;
+  text-shadow: 1.25px 1.5px rgb(25, 25, 26);
+}
+#founderpic {
+  width: 150px;
+  box-shadow: 0 0 5px rgba(20, 20, 20, 0.7);
+}
+.founder {
+  display: inline-flexbox;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: rgb(31, 24, 87);
+  text-shadow: 0.5px 0.5px rgb(252, 252, 252);
+}
+footer {
+  background-color: rgb(7, 4, 0);
+  box-shadow: 0 0 5px rgba(20, 20, 20, 0.7);
+  text-align: center;
+  padding: 15px 1px;
+  border-radius: 3px;
+  border-bottom: 8px solid rgb(25, 61, 21);
+}
+.footer1 {
+  font-size: small;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.footer1:hover {
+  border-bottom: 2px solid rgb(248, 248, 248);
+  border-radius: 1;
+}
